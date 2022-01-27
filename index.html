@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Challenge 1</title>
+  <link rel="stylesheet" href="style.css" >
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="overlay">
+  <h1>Código Secreto</h1>
+  <p>Escribe el mensaje que quieres encriptar.</p>
+  <p>Considera que la desencriptación no considera mayúsculas y acentos.</p>
+  <br>
+      </div>
+  </header>
+
+  <main class="main">
+    <section class="form box">
+      <form id="form-add">
+        <h2 for="input-texto">Ingrese texto</h2>
+        <textarea class="text-input"  name="texto" id="texto" ></textarea>
+        <button  class="btn" id="btn-encriptar">Encriptar</button>
+        <button class="btn" id="btn-desencriptar">Desencriptar</button>
+        <button class="btn" id="btn-limpiar">Limpiar</button>
+      </form>
+    </section>
+  
+    <section class="msg box">
+      <h2 id="">Resultado</h2>
+      <textarea class="text-input"  id="msg"></textarea>
+      <button  class="btn" id="btn-copy">Copiar</button>
+      <button class="btn" id="btn-limpiar2">Limpiar</button>
+      <span id="mesagge" ></span>
+    </section>
+  </main>
+
+  <footer>
+    
+    <div class="footer-bottom">
+        <p>copyright &copy; <a href="#">Mayra Janeth Hernandez Cabrero</a></p>
+                <div class="footer-menu">
+                  <ul class="socials">
+                    <li><a href="https://www.linkedin.com/in/mayra-janeth-hernandez-cabrero-91b172220/"><i class="fa fa-linkedin-square"></i></a></li>
+                  </ul>
+                </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
